@@ -14,6 +14,11 @@ export default class Matrix extends Component {
   }
 
   colorSelected = (col) => {
+    this.setState({
+      color: col
+    })
+
+    getSelectedColor = () => (this.state.color)
 
   }
 
