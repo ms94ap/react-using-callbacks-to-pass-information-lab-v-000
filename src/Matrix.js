@@ -14,7 +14,7 @@ export default class Matrix extends Component {
   }
 
   colorSelected = (col) => {
-    
+
   }
 
   genRow = (vals) => (
