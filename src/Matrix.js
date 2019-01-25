@@ -9,6 +9,10 @@ export default class Matrix extends Component {
     super()
   }
 
+  this.state = {
+    color: this.props.value
+  }
+
   genRow = (vals) => (
     vals.map((val, idx) => <Cell key={idx} color={val} />)
   )
