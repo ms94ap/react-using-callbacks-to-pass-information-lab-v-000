@@ -10,7 +10,11 @@ export default class Matrix extends Component {
   }
 
   this.state = {
-    color: this.props.value
+    color: '#fff'
+  }
+
+  colorSelected = (col) => {
+    
   }
 
   genRow = (vals) => (
